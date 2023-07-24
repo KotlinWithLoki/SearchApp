@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val user = arrayOf("Loki", "kiwo", "VIP UZB", "senju", "Muhammad", "Kamaye Ryunosuke", "ᴅᴇɴɪsɪᴅᴅɪɴᥫᩣ", "Скамер", "Inumaki 4S", "maybe ᅠ ᅠ \uD80C\uDDA9\uD80C\uDDAA", "x\uD835\uDE47\uD835\uDE44\uD835\uDE55\uD835\uDE40\uD835\uDE4D スメンー", "M", "Fine Mob 鬼", "M\uDC0C\uD835\uDC08\uD835\uDC0A\uD835\uDC04\uD835\uDC18", "Nazarov", "vip.javaric\uD83C\uDDFA\uD83C\uDDFF", "\uD83E\uDED7", "aʅ1ҽɳ \uD83E\uDDCA", "Safarboy ibn Anvar al-Khwarizmi", "Saidikrom Shoazimov", "Animeker", "<ж"  )
+        val user = arrayOf("Anvar", "Botir", "Davron", "Elyor", "Odilbek", "Nusratillo", "MuhammadSodiq")
 
         val userAdapter: ArrayAdapter<String> = ArrayAdapter(
             this, android.R.layout.simple_list_item_1, user
